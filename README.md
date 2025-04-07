@@ -45,6 +45,7 @@ CLIENT_ORIGIN=http://localhost:3000
 # Run the server
 uvicorn main:app --reload
 
+## 💻 Frontend Setup (ReactJS)
 cd frontend
 npm install
 
