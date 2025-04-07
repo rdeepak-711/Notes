@@ -3,9 +3,8 @@ from datetime import datetime
 from bson import ObjectId
 from passlib.context import CryptContext
 
-from models import Note
-from database import notes_collection, users_collection
-from models import UsernameData, LoginCheck
+from .database import notes_collection, users_collection
+from .models import Note, UsernameData, LoginCheck
 
 router = APIRouter()
 
