@@ -45,7 +45,13 @@ CLIENT_ORIGIN=http://localhost:3000
 # Run the server
 uvicorn main:app --reload
 
-## 💻 Frontend Setup (ReactJS)
+---
+
+```
+
+## 🔧 Frontend Setup (FastAPI)
+
+```bash
 cd frontend
 npm install
 
@@ -55,6 +61,7 @@ REACT_APP_API_URL=http://localhost:8000
 # Run the app
 npm start
 
+```
 
 Features
 🔐 User Signup with hashed passwords
